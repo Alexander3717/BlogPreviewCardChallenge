@@ -66,16 +66,16 @@ main {
     border: 1px solid black;
 }
 .blogcard .text-preset-1 {
-    font-size: clamp(20px, 5.7143px + 3.8095vw, 24px);
+    font-size: clamp(20px, -3.0769px + 6.1538vw, 24px);
 }
 .blogcard .text-preset-2 {
-    font-size: clamp(14px, 6.8571px + 1.9048vw, 16px);
+    font-size: clamp(14px, 2.4615px + 3.0769vw, 16px);
 }
 .blogcard .text-preset-3 {
-    font-size: clamp(12px, 4.8571px + 1.9048vw, 14px);
+    font-size: clamp(12px, 0.4615px + 3.0769vw, 14px);
 }
 .blogcard .text-preset-3-bold {
-    font-size: clamp(12px, 4.8571px + 1.9048vw, 14px);
+    font-size: clamp(12px, 0.4615px + 3.0769vw, 14px);
 }
 .blogcard a {
     text-decoration: none;
