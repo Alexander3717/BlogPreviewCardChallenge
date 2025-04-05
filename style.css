@@ -1,0 +1,139 @@
+:root {
+    --yellow: #f4d04e;
+    --gray-500: #6b6b6b;
+    --gray-950: #111;
+    
+    --spacing-300: 24px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+}
+.text-preset-1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+.text-preset-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+.text-preset-3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+.text-preset-3-bold {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+/* start of styling */
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100vh;
+    margin: 0;
+}
+body {
+    background-color: var(--yellow);
+    font-family: 'Figtree', sans-serif;
+}
+main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 24px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogcard {
+    width: 87.2%;
+    max-width: 384px;
+    padding: var(--spacing-300);
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px black;
+    border: 1px solid black;
+}
+.blogcard .text-preset-1 {
+    font-size: clamp(20px, 5.7143px + 3.8095vw, 24px);
+}
+.blogcard .text-preset-2 {
+    font-size: clamp(14px, 6.8571px + 1.9048vw, 16px);
+}
+.blogcard .text-preset-3 {
+    font-size: clamp(12px, 4.8571px + 1.9048vw, 14px);
+}
+.blogcard .text-preset-3-bold {
+    font-size: clamp(12px, 4.8571px + 1.9048vw, 14px);
+}
+.blogcard a {
+    text-decoration: none;
+    color: black;
+}
+
+.blogcard-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.blogcard-content {
+    margin: var(--spacing-300) 0px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
+}
+
+.blogcard-content * {
+    margin: 0px;
+    width: fit-content;
+}
+
+.blogcard-content-category {
+    display: inline-block;
+    padding: var(--spacing-50) var(--spacing-150);
+    background-color: var(--yellow);
+    border-radius: 4px;
+}
+
+.blogcard-content-category-link, .blogcard-author-link  {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.blogcard-content-description {
+    color: var(--gray-500);
+}
+
+.blogcard-content-title-link:hover {
+    color: var(--yellow);
+}
+
+.blogcard-author {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.blogcard-author-image {
+    width: 32px;
+    height: 32px;
+    margin-right: var(--spacing-150);
+}
+
+.blogcard-author-name {
+    margin: 0px;
+}
