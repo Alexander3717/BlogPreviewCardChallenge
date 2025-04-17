@@ -22,8 +22,8 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Links
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-and-clamp-functions-7TRBSMbhJH](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-and-clamp-functions-7TRBSMbhJH)
-- Live Site URL: [https://alexander3717.github.io/BlogPreviewCardChallenge/](https://alexander3717.github.io/BlogPreviewCardChallenge/)
+- Solution URL: [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-and-clamp-functions-7TRBSMbhJH)
+- Live Site URL: [View live site](https://alexander3717.github.io/BlogPreviewCardChallenge/)
 
 ## My process
 
